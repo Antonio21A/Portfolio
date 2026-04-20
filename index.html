@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Antonio Williams | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h2 class="logo">AW</h2>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Toolkit</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Antonio Williams</h1>
+    <p class="role">Full Stack Web Developer</p>
+    <p class="sub">Designing clean, modern and engaging web experiences</p>
+    <button onclick="scrollToProjects()">View Projects</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container about">
+
+    <img src="images/profile.jpg" alt="Profile">
+
+    <div>
+      <h2>About Me</h2>
+      <p>I build clean, modern web experiences focused on usability and design.</p>
+
+      <button class="about-btn" onclick="toggleAbout()">More About Me</button>
+
+      <div id="moreAbout" class="about-hidden">
+        <p>My journey started with content creation and understanding audience engagement.</p>
+        <p>I worked in sales (2018–2025), building strong communication and client skills.</p>
+        <p>I worked as a brand ambassador doing sales via video at Confer With.</p>
+        <p>I began coding in 2024 and now build full stack applications.</p>
+      </div>
+
+      <div class="stats">
+        <div><h3>1+</h3><p>Year Coding</p></div>
+        <div><h3>10+</h3><p>Projects</p></div>
+        <div><h3>10+</h3><p>Tools</p></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section dark">
+  <div class="container">
+    <h2>Technical Toolkit</h2>
+
+    <div class="grid">
+      <div class="card"><h3>Frontend</h3><p>JavaScript, HTML5, CSS3, Vue, Bootstrap</p></div>
+      <div class="card"><h3>Backend</h3><p>Node.js, Python, PHP</p></div>
+      <div class="card"><h3>Database</h3><p>MySQL, Oracle APEX</p></div>
+      <div class="card"><h3>Tools</h3><p>GitHub, Vite, WordPress</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="project">
+        <h3>E-commerce App</h3>
+        <p>Online booking & checkout system</p>
+        <a href="https://github.com/haront7002-sketch/Module3-Ecommerce" target="_blank">View Code</a>
+      </div>
+
+      <div class="project">
+        <h3>Dashboard App</h3>
+        <p>Analytics & data interface</p>
+        <a href="https://github.com/topsoldier1aj-max/ModernTech-frontend-" target="_blank">View Code</a>
+      </div>
+
+      <div class="project">
+        <h3>HR App</h3>
+        <p>Employee management system</p>
+        <a href="https://github.com/damonliftz/Modern-Tech-Solutions-HR" target="_blank">View Code</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <div class="container contact-grid">
+
+    <div>
+      <h2>Let’s Build Something Great</h2>
+
+      <p>
+        If you're looking for a developer who values clean design, responsive layouts,
+        and well-structured code — let’s connect and bring your idea to life.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/Antonio21A" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/antonio-williams-4aa20b3b7" target="_blank">LinkedIn</a>
+        <a href="mailto:antoniowilliams135a@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <form class="form">
+      <input placeholder="Name & Last Name">
+      <input placeholder="Your email">
+      <textarea placeholder="Tell me about your idea and what you want to build"></textarea>
+
+      <button type="button">Send Message</button>
+
+      <a class="btn-whatsapp" href="https://wa.me/" target="_blank">Send WhatsApp</a>
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Antonio Williams. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
