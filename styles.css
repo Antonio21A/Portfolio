@@ -56,8 +56,14 @@ nav a:hover{
   text-align:center;
   background:
     linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)),
-    url("https://i.postimg.cc/QtWL68r5/download-(2).jpg");
+    url("https://i.postimg.cc/8kJvqQMx/Abstract-Landscape-Dark-Blue-Background-with-White-Dot-for-Business-Presentations-Flyers-Posters-and.jpg");
   background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.hero-content{
+  max-width:600px;
 }
 
 .hero h1{
@@ -89,17 +95,6 @@ button:hover{
 }
 
 /* ABOUT */
-.about{
-  display:flex;
-  gap:40px;
-}
-
-.about img{
-  width:250px;
-  border-radius:15px;
-  box-shadow:0 10px 40px rgba(0,0,0,0.5);
-}
-
 .about-btn{
   margin-top:15px;
   background:transparent;
@@ -160,17 +155,6 @@ button:hover{
   box-shadow:0 10px 30px rgba(59,130,246,0.2);
 }
 
-/* CONTACT */
-.contact-box{
-  background:var(--card);
-  padding:30px;
-  border-radius:12px;
-}
-
-.contact-box a{
-  color:var(--accent);
-}
-
 /* SECTIONS */
 .section{
   padding:100px 20px;
@@ -185,21 +169,13 @@ button:hover{
   background:#121212;
 }
 
-/* MOBILE */
-@media(max-width:768px){
-  .about{
-    flex-direction:column;
-    text-align:center;
-  }
-}
-/* CONTACT GRID */
+/* CONTACT */
 .contact-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:40px;
 }
 
-/* FORM */
 .form input,
 .form textarea{
   width:100%;
@@ -211,7 +187,6 @@ button:hover{
   color:#fff;
 }
 
-/* WHATSAPP BUTTON */
 .btn-whatsapp{
   display:inline-block;
   margin-top:10px;
@@ -243,4 +218,16 @@ footer{
   background:#0a0a0a;
   font-size:14px;
   color:#888;
+}
+
+/* CERTIFICATIONS STYLE */
+#certifications .card{
+  border-left:3px solid var(--accent);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
 }
